@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GrootMan Music</title>
+    <link rel="stylesheet" href="styles/mainPage.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"><img src="images/icons8-music-240.png" alt="GrootMan Music">GrootMan Music</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>My all-time favorite music</h1>
+            <div class="songItemContainer">
+                <!-- --------------------------------------------------------- -->
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Gumbaya</span>
+                    <span class="songlistplay"><span class="timestamp">08:02 <i
+                        id="0"   class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Lately</span>
+                    <span class="songlistplay"><span class="timestamp">15:31 <i
+                        id="1"    class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Soul To Soul</span>
+                    <span class="songlistplay"><span class="timestamp">08:02 <i
+                        id="2"     class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Thouhts of you </span>
+                    <span class="songlistplay"><span class="timestamp">09:48 <i
+                        id="3"     class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Kuwe</span>
+                    <span class="songlistplay"><span class="timestamp">06:35 <i
+                        id="4"    class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Sabel</span>
+                    <span class="songlistplay"><span class="timestamp">09:30 <i
+                        id="5"        class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Kholwa</span>
+                    <span class="songlistplay"><span class="timestamp">07:47 <i
+                        id="6"    class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Myekeleni</span>
+                    <span class="songlistplay"><span class="timestamp">05:39 <i
+                        id="7"    class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Impilo </span>
+                    <span class="songlistplay"><span class="timestamp">06:52 <i
+                        id="8"   class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Overflow</span>
+                    <span class="songlisplay"><span class="timestamp">08:01 <i
+                        id="9"     class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Time And Time</span>
+                    <span class="songlistplay"><span class="timestamp">08:54 <i
+                        id="10"     class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Afika Voka</span>
+                    <span class="songlistplay"><span class="timestamp">09:13 <i
+                        id="11"     class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Blue Moon </span>
+                    <span class="songlistplay"><span class="timestamp">06:19 <i
+                        id="12"    class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Jazzeneo</span>
+                    <span class="songlistplay"><span class="timestamp">07:32 <i
+                        id="13"    class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <!-- --------------------------------------------------------- -->
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <i class="fas fa-backward fa-2x" id="previous"></i>
+            <i class="far fa-circle-play fa-3x" id="masterPlay"></i>
+            <i class="fas fa-forward fa-2x" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="images/playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Kelvin Momo's Private School</span>
+        </div>
+    </div>
+
+    <script src="scripts/mainPage.js"></script>
+    <script src="scripts/generateSongs.js"></script>
+    <script src="https://kit.fontawesome.com/e487ec03ff.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
